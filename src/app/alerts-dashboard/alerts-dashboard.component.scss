@@ -1,0 +1,45 @@
+.card {
+  background-color: inherit;
+  border: none;
+}
+
+.don-charts .card-body{
+  min-height: 200px;
+  max-height: 200px !important;
+}
+
+a {
+  color: #9E9E9E;
+}
+
+
+
+.total-counts-block {
+    position: absolute;
+    width: 100%;
+    top: 340px;    
+	padding-top: 20px;
+}
+.count-block {
+	width: 50%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 15px;
+	h3 {
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 32px;
+		margin: 0;
+	}
+	small {
+		font-size: 12px;
+		font-weight: 500;
+	}
+}
+.t-right-block {
+	.count-block {
+		width: 33.33%;
+	}
+}
+

@@ -1,0 +1,31 @@
+<div class="row actions-area">
+  <div class="col-md-8">
+    <p>{{playerPersonalInfo.userId}} - ({{playerPersonalInfo.emailId}} - {{playerPersonalInfo.product}})</p>
+  </div>
+  <div class="col-md-4">
+    <div class="row text-center">
+      <div class="col-md-4 form-group">
+        <input type="checkbox" id="blockPlayer" class="form-control">
+        <label for="blockPlayer" class="form-control-label">Block</label>
+      </div>
+      <div class="col-md-4">
+        <input type="checkbox" id="unBlockPlayer" class="form-control">
+        <label for="unBlockPlayer" class="form-control-label">UnBlock</label>
+      </div>
+      <div class="col-md-4">
+        <input type="checkbox" id="ignorePlayer" class="form-control">
+        <label for="ignorePlayer" class="form-control-label">Ignore</label>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row treemap-area">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-body">
+        <div class="card-title">Player Collusion info</div>
+        <tree-chart></tree-chart>
+      </div>
+    </div>
+  </div>
+</div>

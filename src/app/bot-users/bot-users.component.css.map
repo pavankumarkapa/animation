@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "bot-users.component.css",
+  "sources": [
+    "bot-users.component.scss",
+    "../../_variables.scss"
+  ],
+  "mappings": ";AAEA,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,GAAI,GACjB",
+  "names": []
+}

@@ -1,0 +1,101 @@
+/* Mixins */
+
+@mixin transition {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+@mixin transition-none {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	transition: none;
+}
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+@mixin box-shadow($shadow) {
+	-webkit-box-shadow: $shadow;
+	-moz-box-shadow: $shadow;
+	-ms-box-shadow: $shadow;
+	box-shadow: $shadow;
+}
+@mixin transform-rotate($rotate) {
+	-webkit-transform: rotate($rotate);
+	-moz-transform: rotate($rotate);
+	-ms-transform: rotate($rotate);
+	transform: rotate($rotate);
+}
+@mixin transform-origin($center) { 
+	-webkit-transform-origin: rotate($center);
+	-moz-transform-origin: rotate($center);
+	-ms-transform-origin: rotate($center);
+	transform-origin: rotate($center);
+}
+@mixin transition-medium {
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-ms-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+}
+@mixin transform-scale($value){
+	-webkit-transform: scale($value);
+	-moz-transform: scale($value);
+	-o-transform: scale($value);
+	-ms-transform: scale($value);
+	transform: scale($value);
+}
+@mixin calc($width) {
+	/* Firefox */
+	width: -moz-calc($width);
+	/* WebKit */
+	width: -webkit-calc($width);  
+	/* Standard */
+	width: -ms-calc($width);
+	/* Opera */
+	width: -o-calc($width);
+	width: calc($width);
+}
+@mixin v-align-middle {
+	display	: inline-block;
+	vertical-align	: middle;
+}
+@mixin radial-gradient($extern-color, $center-color){
+	background: $extern-color;
+	background: -moz-radial-gradient(center, ellipse cover, $center-color 0%, $extern-color 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,$center-color), color-stop(100%,$extern-color)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, $center-color 0%,$extern-color 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, $center-color 0%,$extern-color 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, $center-color 0%,$extern-color 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, $center-color 0%,$extern-color 100%); /* W3C */
+	background-size: 550% 450%;
+}
+@mixin arrows($arrowdirection: left, $arrowsize: 5px, $arrowcolor: green) {
+    width: 0;
+    height: 0;
+    
+
+    @if $arrowdirection == right {
+        border-top: $arrowsize solid transparent;
+        border-bottom: $arrowsize solid transparent;
+        border-left: $arrowsize solid $arrowcolor;
+    } @else if $arrowdirection == up {
+        border-bottom: $arrowsize solid $arrowcolor;
+        border-left: $arrowsize solid transparent;
+        border-right: $arrowsize solid transparent;
+    } @else if $arrowdirection == down {
+        border-left: $arrowsize solid transparent;
+        border-right: $arrowsize solid transparent;
+        border-top: $arrowsize solid $arrowcolor;
+    } @else {
+        border-top: $arrowsize solid transparent;
+        border-bottom: $arrowsize solid transparent;
+        border-right:$arrowsize solid $arrowcolor;
+    }
+}
+
+

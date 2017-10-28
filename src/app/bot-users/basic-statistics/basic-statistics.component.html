@@ -1,0 +1,116 @@
+<div class="row actions-area">
+  <div class="col-md-8">
+    <p>{{playerPersonalInfo.userId}} - ({{playerPersonalInfo.emailId}} - {{playerPersonalInfo.product}})</p>
+  </div>
+  <div class="col-md-4">
+    <div class="row text-center">
+      <div class="col-md-4 form-group">
+        <input type="checkbox" id="blockPlayer" class="form-control">
+        <label for="blockPlayer" class="form-control-label">Block</label>
+      </div>
+      <div class="col-md-4">
+        <input type="checkbox" id="unBlockPlayer" class="form-control">
+        <label for="unBlockPlayer" class="form-control-label">UnBlock</label>
+      </div>
+      <div class="col-md-4">
+        <input type="checkbox" id="ignorePlayer" class="form-control">
+        <label for="ignorePlayer" class="form-control-label">Ignore</label>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row bot-cards">
+  <div class="col-md-3" *ngFor="let botAlert of playerBotAlertDetails.cardInfo">
+    <div class="card card-bot card-bot-{{botAlert.type}}">
+      <div class="card-title text-center">
+        {{botAlert.type | formatBotAlert}}
+      </div>
+      <div class="card-body text-center">
+        <div class="bot-i-highlight">
+          {{botAlert.data[0].total}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row bot-stats don-charts">
+  <div class="col-md-2" *ngFor="let botAlert of playerBotAlertDetails.donutInfo; let isEven=odd;"
+    [class.c-alternate]="isEven">
+    <div class="card">
+      <div class="card-body text-center">
+        <p class="text-truncate">{{botAlert.type | formatBotAlert}}</p>
+        <donut-chart
+          [data]="botAlert.data"
+          innerRadius="45"
+          [showHealth]="true"
+          [showHealthPercentage]="true"
+        ></donut-chart>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row stakes-statistics">
+  <div class="col-md-6 player-statistics">
+    <div class="card">
+      <div class="card-title">
+        Player Statistics
+      </div>
+      <div class="card-body text-right">
+        <div class="row">
+          <div class="col-md-6">
+            <donut-chart
+              [data]="playerStatisticsInfo"
+              innerRadius="30"
+            ></donut-chart>
+          </div>
+          <div class="col-md-6">
+            <color-info
+              [data]="playerStatisticsInfo"
+            ></color-info>
+          </div>
+        </div>
+        <br>
+        <a routerLink="" class="mr-auto" class="detail-stats-link">Detail Statistics</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 player-stakes">
+    <div class="card">
+      <div class="card-title">Player Stakes</div>
+      <div class="card-body">
+        <h-bar-chart
+          [data]="playerStakesInfo"
+          xLegend="Total Hands Played"
+          yLegend="Game Type"
+        ></h-bar-chart>
+        <!--<g-bar-chart-->
+          <!--[data]="playerStakesInfo"-->
+        <!--&gt;</g-bar-chart>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row personal-sessions-info">
+  <div class="col-md-6 personal-info">
+    <div class="card">
+      <div class="card-title">Personal Info</div>
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 player-sessions">
+    <div class="card">
+      <div class="card-title">Player Sessions</div>
+      <div class="card-body">
+        <h-bar-chart
+          [data]="playerSessionsInfo"
+          xLegend="Longest Session Durations(Minutes)"
+          yLegend="Player Sessions"
+        ></h-bar-chart>
+      </div>
+    </div>
+  </div>
+</div>

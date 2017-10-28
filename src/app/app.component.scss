@@ -1,0 +1,30 @@
+.search-btn {
+  cursor: pointer;
+}
+
+.main-nav {
+  padding: 0.5em 0;
+  border-bottom: 1px solid darkgray;
+}
+
+.nav-item {
+  list-style-type: none;
+
+  a {
+    color: #FAFAFA;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.input-group {
+  border: 1px solid #9E9E9E;
+  border-radius: 0.3em;
+}
+
+.input-group-addon{
+  background-color: #212121;
+  color: #FAFAFA;
+}

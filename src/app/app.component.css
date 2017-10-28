@@ -1,0 +1,30 @@
+/* line 1, C:/pavan/my/dashboard/angular-dashboard/new/src/app/app.component.scss */
+.search-btn {
+  cursor: pointer; }
+
+/* line 5, C:/pavan/my/dashboard/angular-dashboard/new/src/app/app.component.scss */
+.main-nav {
+  padding: 0.5em 0;
+  border-bottom: 1px solid darkgray; }
+
+/* line 10, C:/pavan/my/dashboard/angular-dashboard/new/src/app/app.component.scss */
+.nav-item {
+  list-style-type: none; }
+  /* line 13, C:/pavan/my/dashboard/angular-dashboard/new/src/app/app.component.scss */
+  .nav-item a {
+    color: #FAFAFA; }
+  /* line 17, C:/pavan/my/dashboard/angular-dashboard/new/src/app/app.component.scss */
+  .nav-item a:hover {
+    text-decoration: none; }
+
+/* line 22, C:/pavan/my/dashboard/angular-dashboard/new/src/app/app.component.scss */
+.input-group {
+  border: 1px solid #9E9E9E;
+  border-radius: 0.3em; }
+
+/* line 27, C:/pavan/my/dashboard/angular-dashboard/new/src/app/app.component.scss */
+.input-group-addon {
+  background-color: #212121;
+  color: #FAFAFA; }
+
+/*# sourceMappingURL=app.component.css.map */

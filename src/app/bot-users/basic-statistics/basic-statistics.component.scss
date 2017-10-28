@@ -1,0 +1,87 @@
+@import "../../../variables";
+
+.bot-stats {
+  //margin-top: 1em;
+  border: 1px solid #FFFFFF;
+
+}
+
+.card {
+  background-color: inherit;
+  border: none;
+}
+
+.c-alternate {
+  color: $text-s;
+  background-color: #F8F9FA;
+}
+
+.card-body {
+  padding: 0;
+  p {
+    font-size: 0.8em;
+  }
+}
+
+.stakes-statistics, .personal-sessions-info {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.stakes-statistics .card-body, .personal-sessions-info .card-body {
+  background-color: grey;
+}
+
+.player-statistics .card-body {
+  padding: 1.1em;
+}
+
+.detail-stats-link {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.card-bot{
+  height: 5em;
+  background-color: grey;
+}
+
+.card-bot .card-body {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.bot-cards {
+  margin-bottom: 1em;
+}
+
+//.card-bot-2 {
+//  background: #34e89e;  /* fallback for old browsers */
+//  background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+//  background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//
+//}
+//
+//.card-bot-6 {
+//  background: #4568DC;  /* fallback for old browsers */
+//  background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+//  background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//}
+//
+//.card-bot-7 {
+//  background: #FFAFBD;  /* fallback for old browsers */
+//  background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+//  background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//}
+//
+//.card-bot-8 {
+//  background: #F3904F;  /* fallback for old browsers */
+//  background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+//  background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//}
+
+.actions-area {
+  background-color: #767778;
+  padding-top: 1em;
+  margin-bottom: 1em;
+}

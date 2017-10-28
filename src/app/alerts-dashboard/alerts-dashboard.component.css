@@ -1,0 +1,44 @@
+/* line 1, C:/pavan/my/dashboard/angular-dashboard/new/src/app/alerts-dashboard/alerts-dashboard.component.scss */
+.card {
+  background-color: inherit;
+  border: none; }
+
+/* line 6, C:/pavan/my/dashboard/angular-dashboard/new/src/app/alerts-dashboard/alerts-dashboard.component.scss */
+.don-charts .card-body {
+  min-height: 200px;
+  max-height: 200px !important; }
+
+/* line 11, C:/pavan/my/dashboard/angular-dashboard/new/src/app/alerts-dashboard/alerts-dashboard.component.scss */
+a {
+  color: #9E9E9E; }
+
+/* line 17, C:/pavan/my/dashboard/angular-dashboard/new/src/app/alerts-dashboard/alerts-dashboard.component.scss */
+.total-counts-block {
+  position: absolute;
+  width: 100%;
+  top: 340px;
+  padding-top: 20px; }
+
+/* line 23, C:/pavan/my/dashboard/angular-dashboard/new/src/app/alerts-dashboard/alerts-dashboard.component.scss */
+.count-block {
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px; }
+  /* line 29, C:/pavan/my/dashboard/angular-dashboard/new/src/app/alerts-dashboard/alerts-dashboard.component.scss */
+  .count-block h3 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 32px;
+    margin: 0; }
+  /* line 35, C:/pavan/my/dashboard/angular-dashboard/new/src/app/alerts-dashboard/alerts-dashboard.component.scss */
+  .count-block small {
+    font-size: 12px;
+    font-weight: 500; }
+
+/* line 41, C:/pavan/my/dashboard/angular-dashboard/new/src/app/alerts-dashboard/alerts-dashboard.component.scss */
+.t-right-block .count-block {
+  width: 33.33%; }
+
+/*# sourceMappingURL=alerts-dashboard.component.css.map */

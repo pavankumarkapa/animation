@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "player-collusion-details.component.css",
+  "sources": [
+    "player-collusion-details.component.scss"
+  ],
+  "mappings": ";AAAA,AAAA,aAAa,CAAC;EACZ,gBAAgB,EAAE,OAAQ;EAC1B,WAAW,EAAE,GAAI;EACjB,aAAa,EAAE,GAAI,GACpB;;;AAED,AAAA,aAAa,CAAC;EACZ,KAAK,EAAE,KAAM,GACd",
+  "names": []
+}

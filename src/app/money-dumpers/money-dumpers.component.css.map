@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "money-dumpers.component.css",
+  "sources": [
+    "money-dumpers.component.scss"
+  ],
+  "mappings": ";AAAA,AAAA,cAAc,CAAC;EACb,UAAU,EAAE,GAAI,GACjB;;;AAED,AAAA,KAAK,CAAC;EACJ,gBAAgB,EAAE,OAAQ;EAC1B,MAAM,EAAE,IAAK,GACd;;;AAED,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,CAAE,GACZ",
+  "names": []
+}

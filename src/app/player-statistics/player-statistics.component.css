@@ -1,0 +1,20 @@
+/* line 1, C:/pavan/my/dashboard/angular-dashboard/new/src/app/player-statistics/player-statistics.component.scss */
+.player-statistics {
+  color: black; }
+
+/* line 5, C:/pavan/my/dashboard/angular-dashboard/new/src/app/player-statistics/player-statistics.component.scss */
+.card.ps-info-card {
+  height: 100px;
+  margin-bottom: 2.4em; }
+
+/* line 10, C:/pavan/my/dashboard/angular-dashboard/new/src/app/player-statistics/player-statistics.component.scss */
+.chart-b {
+  text-align: center;
+  display: inline-block; }
+
+/* line 15, C:/pavan/my/dashboard/angular-dashboard/new/src/app/player-statistics/player-statistics.component.scss */
+.ps-ratio-chart .card-body {
+  max-height: 150px;
+  max-width: 150px; }
+
+/*# sourceMappingURL=player-statistics.component.css.map */

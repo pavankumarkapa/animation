@@ -1,0 +1,527 @@
+.animation-main {
+	display: block;
+	position: absolute;
+	top: 14px;
+	left: 50%;
+	width: 100%;
+	transform: translateX(-50%);
+	z-index: 99;
+}
+.animation-block {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 100%;
+	height: 500px;
+	width: 500px;
+	animation: scale linear 1s;
+}
+.md-btn-block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 999;
+
+}
+@keyframes scale {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform:scale(1);
+	}
+}
+
+.m-btn {
+	position: relative;
+	cursor: pointer;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background: #2b375b;
+	margin: 0px auto;
+	text-align: center;
+	border-radius: 999px;
+	color: rgba(155,155,155,1);	
+	transition:         0.1s ease-out;
+}
+.circle1 {
+	width: 90px;
+	height: 90px;
+	background: transparent;
+	border: 23px dashed #fff;
+	border-radius: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	animation: rotator linear 3s infinite;
+	box-shadow: 0px 0px 30px 1px #103136 inset;
+	z-index: 92;
+}
+.circle1:after {
+	content: none;	
+}
+
+@keyframes rotator {
+	from {
+		transform: translate(-50%,-50%) rotate(0deg);
+	}
+	to {
+		transform: translate(-50%,-50%) rotate(-360deg);
+	}
+}
+
+.circle2 {
+	display: block;
+	width: 130px;
+	height: 130px;
+	background: transparent;
+	border-left: 40px solid transparent;
+	border-top: 40px solid #ff7f0e;
+	border-right: 40px solid transparent;
+	border-bottom: 40px solid #ff7f0e;
+	border-radius: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	animation: rotator2 linear 3s infinite;
+	box-shadow: 0px 0px 30px 1px #103136 inset;
+	z-index: 8;
+
+}
+.circle2:after {
+	content: "";
+	width: 136px;
+	height: 115px;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	border-radius: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0px 0px 30px 1px #103136 inset;
+}
+
+
+@keyframes rotator2 {
+	from {
+		transform: translate(-50%,-50%) rotate(0deg);
+	}
+	to {
+		transform: translate(-50%,-50%) rotate(360deg);
+	}
+}
+
+.circle3 {
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: transparent;
+	border: 5px solid darkgray;
+	border-radius: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0px 0px 30px 1px #103136 inset;
+	z-index: 7;
+	cursor: pointer;
+}
+.circle4 {
+	display: block;
+	width: 230px;
+	height: 230px;
+	background: transparent;	
+	border-radius: 100%;
+	transition: all linear 0.15s;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+	z-index: 6;
+}
+
+.circle4:after {
+	content: "";
+	width: 237px;
+	height: 237px;
+	border: 2px dotted #fff;
+	position: absolute;
+	border-radius: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+.circle4:before {
+	content: "";
+	width: 202px;	
+	height: 202px;
+	border: 2px dotted #fff;
+	position: absolute;
+	border-radius: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.circle4 svg {
+	width: 100%;
+	height: 100%;
+}
+
+.circle4 circle {
+	stroke-width: 8px;
+	stroke-dasharray: 5, 2;
+	fill: none;
+	stroke: green;
+
+}
+.circle4 .spin-svg2 {
+	position: absolute;
+	top:0;
+	left: 0;
+	transform: rotate(0deg);	
+	border-radius: 100%;	
+}
+.circle4 .spin-svg2 circle {
+	stroke-width: 9px;	
+	stroke-dasharray: 1100;
+	stroke-dashoffset: 990;
+	fill: none;
+	stroke: #263151;
+	animation: spin-svg-animation1 4s linear forwards infinite;
+}
+
+@keyframes spin-svg-animation1 {
+	0%,100% {
+		stroke-dashoffset: -600;
+	}
+	20% {
+		stroke-dashoffset: -400;
+	}
+	40% {
+		stroke-dashoffset: -300;
+	}
+	60% {
+		stroke-dashoffset: -100;
+	}
+	80% {
+		stroke-dashoffset: -50;
+	}
+}
+
+.circle5 {
+	display: block;
+	width: 300px;
+	height: 300px;
+	background: transparent;	
+	border-radius: 100%;
+	transition: all linear 0.15s;	
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+	z-index: 6;
+}
+.circle5:after {
+	content: "";
+	width: 305px;
+	height: 305px;
+	border: 2px dotted #ff7f0e;
+	position: absolute;
+	border-radius: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+.circle5:before {
+	content: "";
+	width: 270px;	
+	height: 270px;
+	border: 2px dotted #ff7f0e;
+	position: absolute;
+	border-radius: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.circle5 svg {
+	width: 100%;
+	height: 100%;
+}
+
+.circle5 circle {
+	stroke-width: 8px;
+	stroke-dasharray: 15, 3;
+	fill: none;
+	stroke: #ff7f0e;
+
+}
+.circle5 .spin-svg2 {
+	position: absolute;
+	top:0;
+	left: 0;	
+	transform: rotate(90deg);	
+	border-radius: 100%;	
+}
+.circle5 .spin-svg2 circle {
+	stroke-width: 9px;	
+	stroke-dasharray: 300%;
+	stroke-dashoffset: 300%;
+	fill: none;
+	stroke: #263151;
+	animation: spin-svg-animation2 4s linear forwards infinite;
+}
+
+@keyframes spin-svg-animation2 {
+	0%,100% {
+		stroke-dashoffset: -200%;
+	}
+	20% {
+		stroke-dashoffset: -180%;
+	}
+	40% {
+		stroke-dashoffset: -160%;
+	}
+	60% {
+		stroke-dashoffset: -140%;
+	}
+	80% {
+		stroke-dashoffset: -120%;
+	}
+}
+
+
+
+
+.circle6 {
+	position: absolute;
+	width: 420px;
+	height: 420px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 9;	
+	border-radius: 100%;
+	
+}
+.circle6:after {
+	content: "";
+	width: 417px;
+	height: 417px;
+	border: 4px dotted dimgray;
+	position: absolute;
+	border-radius: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+.circle6:before {
+	content: "";
+	width: 390px;
+	height: 390px;
+	border: 4px dotted dimgray;
+	position: absolute;
+	border-radius: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.circle6 svg {
+	width: 100%;
+	height: 100%;
+}
+
+.circle6 circle {
+	stroke-width: 8px;
+	stroke-dasharray: 35, 6;
+	fill: none;
+	stroke: red;
+}
+.circle6 .spin-svg2 {
+	position: absolute;
+	top:0;
+	left: 0;	
+	transform: rotate(0);
+	box-shadow: 0 0 18px 2px dimgray;
+	border-radius: 100%;
+	
+}
+.circle6 .spin-svg2 circle {
+	stroke-width: 9px;	
+	stroke-dasharray: 1260;
+	stroke-dashoffset: 0;
+	fill: none;
+	stroke: #263151;
+	animation: spin-svg-animation4 4s linear forwards infinite;
+
+}
+
+
+@keyframes spin-svg-animation4 {
+	0%,100% {
+		stroke-dashoffset: -500;
+	}
+	20% {
+		stroke-dashoffset: -300;
+	}
+	40% {
+		stroke-dashoffset: -100;
+	}
+	60% {
+		stroke-dashoffset: -80;
+	}
+	80% {
+		stroke-dashoffset: -50;
+	}
+}
+
+
+.circle7 {
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+	background: rgba(43, 55, 91, 0.26);
+	border-radius: 100%;
+	
+}
+
+.circle7 svg {
+	width: 100%;
+	height: 100%;
+	animation: circle-rotator 5s linear infinite;
+}
+
+.circle7 circle {
+	stroke-width: 5px;
+	stroke-dasharray: 1, 5;
+	fill: none;
+	stroke: cyan;
+
+}
+
+.circle7:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 98%;
+	height: 98%;
+	border: 2px solid darkcyan;
+	border-radius: 100%;
+}
+
+.circle-spin3 {
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+	background: rgba(43, 55, 91, 0.26);
+	border-radius: 100%;
+	box-shadow: 0 0 40px 4px #2b2aa1;
+}
+
+.circle-spin3 svg {
+	width: 100%;
+	height: 100%;
+	animation: circle-rotator 5s linear infinite;
+}
+
+.circle-spin3 circle {
+	stroke-width: 5px;
+	stroke-dasharray: 1, 5;
+	fill: none;
+	stroke: cyan;
+
+}
+
+.circle-spin3:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid darkcyan;
+	border-radius: 100%;
+}
+
+.circle-spin3 {
+	cursor: pointer;
+}
+
+@keyframes circle-rotator {
+	100%,0%{
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(15deg);
+	}
+}
+
+
+.m-btn .path {
+	stroke-dasharray: 200;
+	stroke-dashoffset: 200;
+	animation: dash 3s linear forwards infinite;
+}
+@keyframes dash {
+	0% {
+		stroke-dashoffset: 199;
+		stroke: yellow;
+
+	}
+	70% {
+		stroke: orange;
+	}
+	100% {
+		stroke-dashoffset: 0;	
+		stroke: green;
+	}
+
+}
+.poker-icon {
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	right: 4px;
+	width: 32px;
+	height: 32px;		
+	transform: scale(0);	
+	animation: icon-animation 3s 1.5s linear forwards infinite;
+}
+
+@keyframes icon-animation {
+
+	100%,0% {
+		transform: scale(0);
+		filter: drop-shadow(0px 0px 2px orange);
+	}
+	50% {
+		transform: scale(1);
+		filter: drop-shadow(0px 0px 20px orange);
+	}
+
+}

@@ -1,0 +1,8 @@
+export enum AlertType {
+  BOT_USERS = 3,
+  ASSOCIATIONS = 1,
+  MONEY_DUMPING,
+  COLLUDERS = 2,
+  BONUS_ABUSERS = 7,
+  RULE_VIOLATIONS = 6
+}

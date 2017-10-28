@@ -1,0 +1,46 @@
+/* line 3, C:/pavan/my/dashboard/angular-dashboard/new/src/app/money-dumpers/money-dumper-details/money-dumper-details.component.scss */
+.actions-area {
+  background-color: #767778;
+  padding-top: 1em;
+  margin-bottom: 1em; }
+
+/* line 9, C:/pavan/my/dashboard/angular-dashboard/new/src/app/money-dumpers/money-dumper-details/money-dumper-details.component.scss */
+.bot-stats {
+  border: 1px solid #FFFFFF; }
+
+/* line 15, C:/pavan/my/dashboard/angular-dashboard/new/src/app/money-dumpers/money-dumper-details/money-dumper-details.component.scss */
+.card {
+  background-color: inherit;
+  border: none; }
+
+/* line 20, C:/pavan/my/dashboard/angular-dashboard/new/src/app/money-dumpers/money-dumper-details/money-dumper-details.component.scss */
+.c-alternate {
+  color: #9E9E9E;
+  background-color: #F8F9FA; }
+
+/* line 25, C:/pavan/my/dashboard/angular-dashboard/new/src/app/money-dumpers/money-dumper-details/money-dumper-details.component.scss */
+.card-body {
+  padding: 0; }
+  /* line 27, C:/pavan/my/dashboard/angular-dashboard/new/src/app/money-dumpers/money-dumper-details/money-dumper-details.component.scss */
+  .card-body p {
+    font-size: 0.8em; }
+
+/* line 32, C:/pavan/my/dashboard/angular-dashboard/new/src/app/money-dumpers/money-dumper-details/money-dumper-details.component.scss */
+.stakes-statistics, .personal-sessions-info {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+/* line 37, C:/pavan/my/dashboard/angular-dashboard/new/src/app/money-dumpers/money-dumper-details/money-dumper-details.component.scss */
+.stakes-statistics .card-body, .personal-sessions-info .card-body {
+  background-color: grey; }
+
+/* line 41, C:/pavan/my/dashboard/angular-dashboard/new/src/app/money-dumpers/money-dumper-details/money-dumper-details.component.scss */
+.player-statistics .card-body {
+  padding: 1.1em; }
+
+/* line 45, C:/pavan/my/dashboard/angular-dashboard/new/src/app/money-dumpers/money-dumper-details/money-dumper-details.component.scss */
+.detail-stats-link {
+  color: #FFFFFF;
+  text-decoration: underline; }
+
+/*# sourceMappingURL=money-dumper-details.component.css.map */

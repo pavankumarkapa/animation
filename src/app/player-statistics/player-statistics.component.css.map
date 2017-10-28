@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "player-statistics.component.css",
+  "sources": [
+    "player-statistics.component.scss"
+  ],
+  "mappings": ";AAAA,AAAA,kBAAkB,CAAC;EACjB,KAAK,EAAE,KAAM,GACd;;;AAED,AAAK,KAAA,AAAA,aAAa,CAAC;EACjB,MAAM,EAAE,KAAM;EACd,aAAa,EAAE,KAAM,GACtB;;;AAED,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,MAAO;EACnB,OAAO,EAAE,YAAa,GACvB;;;AAED,AAAgB,eAAD,CAAC,UAAU,CAAC;EACzB,UAAU,EAAE,KAAM;EAClB,SAAS,EAAE,KAAM,GAClB",
+  "names": []
+}

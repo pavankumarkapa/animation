@@ -1,0 +1,60 @@
+/* line 3, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.bot-stats {
+  border: 1px solid #FFFFFF; }
+
+/* line 9, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.card {
+  background-color: inherit;
+  border: none; }
+
+/* line 14, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.c-alternate {
+  color: #9E9E9E;
+  background-color: #F8F9FA; }
+
+/* line 19, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.card-body {
+  padding: 0; }
+  /* line 21, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+  .card-body p {
+    font-size: 0.8em; }
+
+/* line 26, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.stakes-statistics, .personal-sessions-info {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+/* line 31, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.stakes-statistics .card-body, .personal-sessions-info .card-body {
+  background-color: grey; }
+
+/* line 35, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.player-statistics .card-body {
+  padding: 1.1em; }
+
+/* line 39, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.detail-stats-link {
+  color: #FFFFFF;
+  text-decoration: underline; }
+
+/* line 44, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.card-bot {
+  height: 5em;
+  background-color: grey; }
+
+/* line 49, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.card-bot .card-body {
+  font-size: 1.5em;
+  font-weight: 900; }
+
+/* line 54, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.bot-cards {
+  margin-bottom: 1em; }
+
+/* line 83, C:/pavan/my/dashboard/angular-dashboard/new/src/app/bot-users/basic-statistics/basic-statistics.component.scss */
+.actions-area {
+  background-color: #767778;
+  padding-top: 1em;
+  margin-bottom: 1em; }
+
+/*# sourceMappingURL=basic-statistics.component.css.map */

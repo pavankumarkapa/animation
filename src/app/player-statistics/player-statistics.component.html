@@ -1,0 +1,130 @@
+<div class="player-statistics">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card ps-info-card">
+            <div class="card-title">
+              Hands Played
+            </div>
+            <div class="card-body">
+              {{playerStatisticsInfo.eprotectorPlayerStatsBean.handCount}}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card ps-info-card">
+            <div class="card-title">
+              Raise Count
+            </div>
+            <div class="card-body">
+              {{playerStatisticsInfo.eprotectorPlayerStatsBean.noOfRaises}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card ps-info-card">
+            <div class="card-title">
+              Call Count
+            </div>
+            <div class="card-body">
+              {{playerStatisticsInfo.eprotectorPlayerStatsBean.noOfCall}}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card ps-info-card">
+            <div class="card-title">
+              Bet Count
+            </div>
+            <div class="card-body">
+              {{playerStatisticsInfo.eprotectorPlayerStatsBean.noOfBet}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ps-info-card">
+          <div class="card">
+            <div class="card-title">
+              Fold Count
+            </div>
+            <div class="card-body">
+              {{playerStatisticsInfo.eprotectorPlayerStatsBean.noOfFold}}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card ps-info-card">
+            <div class="card-title">
+              Folded Steal
+            </div>
+            <div class="card-body">
+              {{playerStatisticsInfo.eprotectorPlayerStatsBean.foldedSteal}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 ps-ratio-chart">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card text-center">
+            <div class="card-title">
+              Raise Ratio
+            </div>
+            <div class="card-body">
+              <div class="chart-b">
+                <donut-chart
+                ></donut-chart>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-title">
+              Call Percent
+            </div>
+            <div class="card-body">
+              <div class="chart-b">
+                <donut-chart
+                ></donut-chart>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-title">
+              Bet Percent
+            </div>
+            <div class="card-body">
+              <div class="chart-b">
+                <donut-chart
+                ></donut-chart>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-title">
+              Fold Percent
+            </div>
+            <div class="card-body">
+              <div class="chart-b">
+                <donut-chart
+                ></donut-chart>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

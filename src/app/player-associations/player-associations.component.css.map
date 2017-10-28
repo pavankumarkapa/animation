@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "player-associations.component.css",
+  "sources": [
+    "player-associations.component.scss"
+  ],
+  "mappings": ";AAAA,AAAA,YAAY,CAAC;EACX,gBAAgB,EAAE,OAAQ;EAC1B,WAAW,EAAE,GAAI;EACjB,aAAa,EAAE,GAAI,GACpB;;;AAED,AAAA,KAAK,CAAC;EACJ,gBAAgB,EAAE,OAAQ;EAC1B,MAAM,EAAE,IAAK,GACd;;;AAED,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,CAAE,GACZ",
+  "names": []
+}

@@ -1,0 +1,7 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import "assets/scss/app.scss";
+
+html, body {
+  background-color: $bg-p;
+  color: $text-p;
+}

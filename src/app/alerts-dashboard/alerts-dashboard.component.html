@@ -1,0 +1,83 @@
+<div class="row">
+	<div class="col-md-4">
+		<div class="row">
+			<div class="col-md-6" *ngFor="let alert of alerts">
+				<div class="card">
+					<div class="card-body text-center">
+						<donut-chart
+									 [data]="alert.data"
+									 [showHealthPercentage]="true"
+									 ></donut-chart>
+						<a [routerLink]="alert.url" class="text-truncate">{{alert.type}}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-8">
+		<div class="row">
+			<div class="col-md-12">
+				<new-animation></new-animation>
+				
+<!--
+				<div class="total-counts-block">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="count-block">
+								<h3>33</h3>
+								<small>Fast Forward</small>
+							</div>
+							<div class="count-block">
+								<h3>74</h3>
+								<small>Cashier</small>
+							</div>
+							<div class="count-block">
+								<h3>33</h3>
+								<small>Tournaments</small>
+							</div>
+							<div class="count-block">
+								<h3>33</h3>
+								<small>Cash Games</small>
+							</div>
+						</div>
+						<div class="col-md-4"></div>
+						<div class="col-md-4 t-right-block">
+							<div class="count-block">
+								<h3>33</h3>
+								<small>Bot Users</small>
+							</div>
+							<div class="count-block">
+								<h3>33</h3>
+								<small>Associations</small>
+							</div>
+							<div class="count-block">
+								<h3>33</h3>
+								<small>Money Dumping</small>
+							</div>
+							<div class="count-block">
+								<h3>33</h3>
+								<small>Collusions</small>
+							</div>
+							<div class="count-block">
+								<h3>33</h3>
+								<small>Bonus Abusers</small>
+							</div>
+							<div class="count-block">
+								<h3>33</h3>
+								<small>Rule Violations</small>
+							</div>
+						</div>
+					</div>
+				</div>
+-->
+				<div class="bottom-graphs-block">
+					<div class="row">
+						<div class="col-md-12">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

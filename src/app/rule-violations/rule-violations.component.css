@@ -1,0 +1,34 @@
+/* line 3, C:/pavan/my/dashboard/angular-dashboard/new/src/app/rule-violations/rule-violations.component.scss */
+.action-info {
+  background-color: #767778; }
+
+/* line 9, C:/pavan/my/dashboard/angular-dashboard/new/src/app/rule-violations/rule-violations.component.scss */
+.action-info {
+  padding-bottom: 1em; }
+
+/* line 13, C:/pavan/my/dashboard/angular-dashboard/new/src/app/rule-violations/rule-violations.component.scss */
+.card {
+  background-color: inherit;
+  border: none; }
+
+/* line 18, C:/pavan/my/dashboard/angular-dashboard/new/src/app/rule-violations/rule-violations.component.scss */
+.card-body {
+  padding: 0; }
+
+/* line 22, C:/pavan/my/dashboard/angular-dashboard/new/src/app/rule-violations/rule-violations.component.scss */
+a {
+  color: #FAFAFA; }
+  /* line 25, C:/pavan/my/dashboard/angular-dashboard/new/src/app/rule-violations/rule-violations.component.scss */
+  a:active, a:hover {
+    color: #9E9E9E;
+    background-color: #FFFFFF; }
+
+/* line 31, C:/pavan/my/dashboard/angular-dashboard/new/src/app/rule-violations/rule-violations.component.scss */
+.nav-section {
+  padding-right: 0; }
+
+/* line 35, C:/pavan/my/dashboard/angular-dashboard/new/src/app/rule-violations/rule-violations.component.scss */
+.bot-stats-section {
+  border: 1px solid #FFFFFF; }
+
+/*# sourceMappingURL=rule-violations.component.css.map */

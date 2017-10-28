@@ -1,0 +1,52 @@
+$bg-p: #212121;
+$bg-s: #9E9E9E;
+$text-p: #FAFAFA;
+$text-s: #9E9E9E;
+
+// Custom  Variables
+
+// app colors
+$primary-color: #3b3b3b;
+$secondary-color: #e7e7e7;
+$alert-color: #f04124;
+$success-color: #43AC6A;
+$warning-color: #f08a24;
+$info-color: #a0d3e8;
+
+// app font sizes
+$app-p-font: 15px;
+$app-a-font: 15px;
+$app-h1-font: 30px;
+$app-h2-font: 26px;
+$app-h3-font: 24px;
+$app-h4-font: 20px;
+$app-h5-font: 18px;
+$app-h6-font: 16px;
+
+$font-size-10:10px;
+$font-size-12:12px;
+$font-size-13:13px;
+$font-size-14:14px;
+$font-size-15:15px;
+$font-size-16:16px;
+$font-size-17:17px;
+$font-size-18:18px;
+$font-size-19:19px;
+$font-size-20:20px;
+$font-size-22:22px;
+$font-size-24:24px;
+$font-size-26:26px;
+
+
+$type: poker-black;
+p {
+  @if $type == poker-white {
+    color: black;
+  } @else if $type == poker-black {
+    color: white;
+  } @else if $type == poker-orange {
+    color: blue;
+  } @else {
+    color: black;
+  }
+}

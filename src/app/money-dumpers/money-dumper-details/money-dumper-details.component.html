@@ -1,0 +1,71 @@
+<div class="row actions-area">
+  <div class="col-md-8">
+    <p>{{playerPersonalInfo.userId}} - ({{playerPersonalInfo.emailId}} - {{playerPersonalInfo.product}})</p>
+  </div>
+  <div class="col-md-4">
+    <div class="row text-center">
+      <div class="col-md-4 form-group">
+        <input type="checkbox" id="blockPlayer" class="form-control">
+        <label for="blockPlayer" class="form-control-label">Block</label>
+      </div>
+      <div class="col-md-4">
+        <input type="checkbox" id="unBlockPlayer" class="form-control">
+        <label for="unBlockPlayer" class="form-control-label">UnBlock</label>
+      </div>
+      <div class="col-md-4">
+        <input type="checkbox" id="ignorePlayer" class="form-control">
+        <label for="ignorePlayer" class="form-control-label">Ignore</label>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-title text-truncate">Top 5 Losers aganist {{playerPersonalInfo.userId}}</div>
+      <div class="card-body">
+        <h-bar-chart
+          [data]="mostLovedOpponents"
+          xLegend="net win of {{playerPersonalInfo.userId}} in $"
+          yLegend="Player Sessions"
+        ></h-bar-chart>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-title text-truncate">Top 5 Winners aganist {{playerPersonalInfo.userId}}</div>
+      <div class="card-body">
+        <h-bar-chart
+          [data]="mostHatedOpponents"
+          xLegend="net loss of {{playerPersonalInfo.userId}} in $"
+          yLegend="Player Sessions"
+        ></h-bar-chart>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-title text-truncate">Top 5 Most Played Opponents of {{playerPersonalInfo.userId}}</div>
+      <div class="card-body">
+        <h-bar-chart
+          [data]="mostPlayedOpponents"
+          xLegend="Hand Percentage aganist top played opponents"
+          yLegend="Player Sessions"
+        ></h-bar-chart>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-title text-truncate">Top 5 Most Played Opponents NetWin & NewLoss of {{playerPersonalInfo.userId}}</div>
+      <div class="card-body">
+        <g-bar-chart
+        [data]="mostPlayedNetWinsAndNetLoss"
+        ></g-bar-chart>
+      </div>
+    </div>
+  </div>
+</div>

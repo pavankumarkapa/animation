@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="row main-nav">
+    <div class="col-md-3">
+      <nav class="navbar">
+        <li class="nav-item"><a routerLink="alerts-dashboard">eprotector</a></li>
+      </nav>
+    </div>
+    <div class="col-md-7">
+      <div class="form">
+        <div class="form-row">
+          <label for="searchPlayer" class="sr-only">Search</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="searchPlayer"
+                   placeholder="Search Player" #player_search>
+            <a class="input-group-addon search-btn" (click)="handlePlayerSearch(player_search.value)">Search</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <nav class="navbar">
+        <li class="nav-item"><a routerLink="alerts-dashboard">Statistics</a></li>
+        <li class="nav-item"><a routerLink="alerts-dashboard">Alerts</a></li>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

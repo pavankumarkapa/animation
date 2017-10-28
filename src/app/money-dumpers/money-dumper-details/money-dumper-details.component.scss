@@ -1,0 +1,48 @@
+@import "../../../variables";
+
+.actions-area {
+  background-color: #767778;
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+
+.bot-stats {
+  //margin-top: 1em;
+  border: 1px solid #FFFFFF;
+
+}
+
+.card {
+  background-color: inherit;
+  border: none;
+}
+
+.c-alternate {
+  color: $text-s;
+  background-color: #F8F9FA;
+}
+
+.card-body {
+  padding: 0;
+  p {
+    font-size: 0.8em;
+  }
+}
+
+.stakes-statistics, .personal-sessions-info {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.stakes-statistics .card-body, .personal-sessions-info .card-body {
+  background-color: grey;
+}
+
+.player-statistics .card-body {
+  padding: 1.1em;
+}
+
+.detail-stats-link {
+  color: #FFFFFF;
+  text-decoration: underline;
+}

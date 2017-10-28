@@ -1,0 +1,156 @@
+/* line 42, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_variable.scss */
+p {
+  color: white; }
+
+/* Mixins */
+/* Mixins */
+/* line 4, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+/* line 9, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 13, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+p {
+  margin: 0;
+  padding: 0; }
+
+/* line 17, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+a {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+/* line 20, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+a:focus {
+  outline: none; }
+
+/* line 23, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+::-webkit-input-placeholder {
+  opacity: 1; }
+
+/* line 26, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  opacity: 1; }
+
+/* line 29, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  opacity: 1; }
+
+/* line 32, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+:-ms-input-placeholder {
+  opacity: 1; }
+
+/* line 35, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; }
+
+/* line 42, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid green; }
+
+/* line 46, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid blue; }
+
+/* line 49, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid blue; }
+
+/* line 52, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid green;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent; }
+
+/* line 57, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.bot-icon {
+  background-image: url("/images/bot.png"); }
+
+/* line 57, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.associations-icon {
+  background-image: url("/images/associations.png"); }
+
+/* line 57, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.moneydumper-icon {
+  background-image: url("/images/moneydumper.png"); }
+
+/* line 57, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.colluder-icon {
+  background-image: url("/images/colluder.png"); }
+
+/* line 57, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.bonusabuser-icon {
+  background-image: url("/images/bonusabuser.png"); }
+
+/* line 57, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+.rule-violation-icon {
+  background-image: url("/images/rule-violation.png"); }
+
+/* line 64, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+h1 {
+  font-size: 2em; }
+
+/* line 64, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+h2 {
+  font-size: 1.5em; }
+
+/* line 64, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_default.scss */
+h3 {
+  font-size: 1.2em; }
+
+/* line 42, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_variable.scss */
+p {
+  color: white; }
+
+/* Mixins */
+@media (min-width: 1200px) {
+  /* line 6, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_global.scss */
+  .container {
+    max-width: 1380px; } }
+
+/* line 14, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_global.scss */
+alerts-dashboard .card {
+  margin-bottom: 20px;
+  box-shadow: 0 0px 10px 3px darkslategrey; }
+
+/* line 19, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_global.scss */
+.adm-actions {
+  background-color: #292a2b;
+  padding: 10px 0;
+  margin-bottom: 1em;
+  box-shadow: 0 0 8px 2px darkslategrey inset;
+  border-radius: 3px; }
+  /* line 25, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_global.scss */
+  .adm-actions p {
+    line-height: 24px;
+    padding-top: 8px; }
+  /* line 29, C:/pavan/my/dashboard/angular-dashboard/new/src/assets/scss/custom/_global.scss */
+  .adm-actions .form-group {
+    margin-bottom: 0;
+    border-left: 1px solid; }
+
+/*# sourceMappingURL=app.css.map */
